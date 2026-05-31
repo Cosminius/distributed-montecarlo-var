@@ -217,14 +217,8 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# LaTeX build artifacts
-report/*.aux
-report/*.fdb_latexmk
-report/*.fls
-report/*.log
-report/*.out
-report/*.synctex.gz
-report/*.toc
+# Report (kept locally for the Moodle submission, not published to the repo)
+report/
 
 # Assignment brief (not part of the submitted code)
 PROJECT_requirements.pdf
