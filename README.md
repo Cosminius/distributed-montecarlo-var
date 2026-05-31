@@ -37,7 +37,6 @@ src/orchestrator.py  discover nodes, distribute, aggregate, measure, save
 src/plots.py         the three result charts
 data/prices.py       download and cache the price data
 docker/              endpoint image, compose file, entrypoint, engine config
-report/report.pdf    the full report (~3000 words)
 results/             timings, VaR results, histogram
 images/              charts and screenshots
 ```
@@ -64,8 +63,3 @@ uv run python src/plots.py
 > **Credentials.** The endpoints authenticate with Globus **client credentials**
 > (`GLOBUS_COMPUTE_CLIENT_ID` and `GLOBUS_COMPUTE_CLIENT_SECRET`) kept in `docker/.env`.
 > That file is **not** committed to the repository for security; provide your own to run the system.
-
-## Report
-
-The full report, following the required structure, is in `report/report.pdf`
-(built from `report/report.tex`).
